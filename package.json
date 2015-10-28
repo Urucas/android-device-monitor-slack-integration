@@ -1,0 +1,43 @@
+{
+  "name": "android-device-monitor-slack-integration",
+  "version": "0.0.1",
+  "description": "An integration to use android-device-monitor with slack API",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha tests/* --compilers js:babel/register -t 15s",
+    "build": "./node_modules/grunt-cli/bin/grunt build",
+    "prestart": "npm run build",
+    "start": "./bin/cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Urucas/android-device-monitor.git"
+  },
+  "keywords": [
+    "android",
+    "device",
+    "monitor",
+    "adb",
+    "usb"
+  ],
+  "author": "Urucas <hello@urucas.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Urucas/android-device-monitor/issues"
+  },
+  "homepage": "https://github.com/Urucas/android-device-monitor#readme",
+  "dependencies": {
+    "android-device-monitor": "0.0.2",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "request": "^2.65.0",
+    "semafor": "0.0.1"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "grunt-cli": "^0.1.13",
+    "grunt-babel": "^5.0.3",
+    "load-grunt-tasks": "^3.3.0",
+    "mocha": "^2.3.3"
+  }
+}
