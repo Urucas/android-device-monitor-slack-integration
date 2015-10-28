@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/Urucas/android-device-monitor#readme",
   "dependencies": {
-    "android-device-monitor": "0.0.2",
+    "android-device-monitor": "0.0.3",
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
     "request": "^2.65.0",
