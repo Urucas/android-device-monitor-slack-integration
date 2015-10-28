@@ -1,6 +1,6 @@
 # android-device-monitor-slack-integration
-An example on how to use integrate android-device-monitor with slack, and fire
-an alert on your usb devices events
+An example on how to integrate android-device-monitor with slack and fire
+an alert on a device event.
 
 #Install
 ```bash
